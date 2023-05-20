@@ -4,6 +4,12 @@ const img3 = document.getElementById('img3')
 const img4 = document.getElementById('img4')
 const img5 = document.getElementById('img5')
 
+const txt1 = document.getElementById('txt1')
+const txt2 = document.getElementById('txt2')
+const txt3 = document.getElementById('txt3')
+const txt4 = document.getElementById('txt4')
+const txt5 = document.getElementById('txt5')
+
 const expandImg1 = img1.addEventListener('click', () => {
     img1.classList.remove('img__contain')
     img1.classList.add('img__expand')
@@ -15,6 +21,17 @@ const expandImg1 = img1.addEventListener('click', () => {
     img4.classList.add('img__contain')
     img5.classList.remove('img__expand')
     img5.classList.add('img__contain')
+
+    txt1.classList.remove('hide__text')
+    txt1.classList.add('show__text')
+    txt2.classList.remove('show__text')
+    txt2.classList.add('hide__text')
+    txt3.classList.remove('show__text')
+    txt3.classList.add('hide__text')
+    txt4.classList.remove('show__text')
+    txt4.classList.add('hide__text')
+    txt5.classList.remove('show__text')
+    txt5.classList.add('hide__text')
 })
 
 const expandImg2 = img2.addEventListener('click', () => {
@@ -28,6 +45,17 @@ const expandImg2 = img2.addEventListener('click', () => {
     img4.classList.add('img__contain')
     img5.classList.remove('img__expand')
     img5.classList.add('img__contain')
+
+    txt2.classList.remove('hide__text')
+    txt2.classList.add('show__text')
+    txt1.classList.remove('show__text')
+    txt1.classList.add('hide__text')
+    txt3.classList.remove('show__text')
+    txt3.classList.add('hide__text')
+    txt4.classList.remove('show__text')
+    txt4.classList.add('hide__text')
+    txt5.classList.remove('show__text')
+    txt5.classList.add('hide__text')
 })
 
 const expandImg3 = img3.addEventListener('click', () => {
@@ -41,6 +69,17 @@ const expandImg3 = img3.addEventListener('click', () => {
     img4.classList.add('img__contain')
     img5.classList.remove('img__expand')
     img5.classList.add('img__contain')
+
+    txt3.classList.remove('hide__text')
+    txt3.classList.add('show__text')
+    txt1.classList.remove('show__text')
+    txt1.classList.add('hide__text')
+    txt2.classList.remove('show__text')
+    txt2.classList.add('hide__text')
+    txt4.classList.remove('show__text')
+    txt4.classList.add('hide__text')
+    txt5.classList.remove('show__text')
+    txt5.classList.add('hide__text')
 })
 
 const expandImg4 = img4.addEventListener('click', () => {
@@ -54,6 +93,17 @@ const expandImg4 = img4.addEventListener('click', () => {
     img3.classList.add('img__contain')
     img5.classList.remove('img__expand')
     img5.classList.add('img__contain')
+
+    txt4.classList.remove('hide__text')
+    txt4.classList.add('show__text')
+    txt1.classList.remove('show__text')
+    txt1.classList.add('hide__text')
+    txt2.classList.remove('show__text')
+    txt2.classList.add('hide__text')
+    txt3.classList.remove('show__text')
+    txt3.classList.add('hide__text')
+    txt5.classList.remove('show__text')
+    txt5.classList.add('hide__text')
 })
 
 const expandImg5 = img5.addEventListener('click', () => {
@@ -67,4 +117,15 @@ const expandImg5 = img5.addEventListener('click', () => {
     img3.classList.add('img__contain')
     img4.classList.remove('img__expand')
     img4.classList.add('img__contain')
+
+    txt5.classList.remove('hide__text')
+    txt5.classList.add('show__text')
+    txt1.classList.remove('show__text')
+    txt1.classList.add('hide__text')
+    txt2.classList.remove('show__text')
+    txt2.classList.add('hide__text')
+    txt3.classList.remove('show__text')
+    txt3.classList.add('hide__text')
+    txt4.classList.remove('show__text')
+    txt4.classList.add('hide__text')
 })
