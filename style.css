@@ -35,7 +35,7 @@ body {
     transition: 1s;
 }
 
-.img_expand {
+.img__expand {
     height: 30em;
     width: 50em;
     border-radius: 2.5em;
